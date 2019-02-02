@@ -1,0 +1,44 @@
+{
+  "name": "on-push-tslint",
+  "version": "0.0.0-semantically-released",
+  "description": "Verifiy that components use the OnPush change detection strategy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r-winkler/on-push-tslint.git"
+  },
+  "author": "René Winkler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r-winkler/on-push-tslint/issues"
+  },
+  "homepage": "https://github.com/r-winkler/on-push-tslint#readme",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "yarn test && tsc",
+    "postbuild": "cp package.json dist && cp README.md dist && cp LICENSE dist",
+    "manual-test": "tslint --project tests/fixtures",
+    "test": "jest",
+    "semantic-release": "semantic-release"
+  },
+  "release": {
+    "pkgRoot": "dist"
+  },
+  "devDependencies": {
+    "@angular/core": "^7.2.3",
+    "@types/jest": "^23.3.10",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^10.12.18",
+    "jest": "^23.6.0",
+    "kleur": "^3.0.1",
+    "prettier": "^1.15.3",
+    "rimraf": "^2.6.2",
+    "semantic-release": "^15.13.1",
+    "ts-jest": "^23.10.5",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-config-standard": "^8.0.1"
+  },
+  "dependencies": {
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  }
+}

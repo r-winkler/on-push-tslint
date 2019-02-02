@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test run 1`] = `"[31mFailures: 2[39m/default.ts/notset.ts"`;

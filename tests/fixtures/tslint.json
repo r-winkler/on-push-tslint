@@ -1,0 +1,12 @@
+{
+  "rulesDirectory": [
+    "../../dist"
+  ],
+  "rules": {
+    "on-push-change-detection": [
+      true,
+      ".*.spec.ts$",
+      "app.component.ts"
+    ]
+  }
+}
