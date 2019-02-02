@@ -16,7 +16,8 @@
     "prebuild": "rimraf dist",
     "build": "yarn test && tsc",
     "postbuild": "cp package.json dist && cp README.md dist && cp LICENSE dist",
-    "manual-test": "tslint --project tests/fixtures",
+    "manual-test": "tsc && tslint --project tests/fixtures",
+    "fix": "yarn manual-test --fix",
     "test": "jest",
     "semantic-release": "semantic-release"
   },
