@@ -24,7 +24,6 @@ test(`test run`, () => {
         ]
     ]);
 
-
     const lintConfiguration = {
         rules,
         jsRules: rules,
