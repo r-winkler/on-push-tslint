@@ -94,9 +94,7 @@ class OnPushChangeDetectionStrategyWalker extends Lint.RuleWalker {
                 match[1].repeat( // indentation should match start of statement
                     ts.getLineAndCharacterOfPosition(
                         this.getSourceFile(),
-                        assignment.getStart(this.getSourceFile()),
-                    ).character,
-                );
+                        assignment.getStart(this.getSourceFile()),).character,);
 
             const maybeCarriageReturn = this.getSourceFile().text[this.getSourceFile().getLineEndOfPosition(assignment.pos) - 1] === "\r" ? "\r" : "";
 
