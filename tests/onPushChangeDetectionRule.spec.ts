@@ -3,6 +3,7 @@ import * as path from 'path'
 import { red } from 'kleur'
 
 test(`test lint`, () => {
+
     let log = '';
     console.log = jest.fn(message => (log += message)); // overwrite console.log
 
