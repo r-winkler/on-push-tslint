@@ -25,21 +25,21 @@
     "pkgRoot": "dist"
   },
   "devDependencies": {
-    "@angular/core": "^8.2.2",
-    "@types/jest": "^24.0.17",
+    "@angular/core": "^9.1.6",
+    "@types/jest": "^25.2.1",
     "@types/minimist": "^1.2.0",
-    "@types/node": "^12.7.1",
-    "jest": "^24.8.0",
+    "@types/node": "^13.13.5",
+    "jest": "^26.0.1",
     "kleur": "^3.0.3",
-    "prettier": "^1.18.2",
-    "rimraf": "^3.0.0",
-    "semantic-release": "^15.13.21",
-    "ts-jest": "^24.0.2",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^17.0.7",
+    "ts-jest": "^25.5.1",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-config-standard": "^8.0.1"
+    "tslint-config-standard": "^9.0.0"
   },
   "dependencies": {
-    "tslint": "^5.18.0",
-    "typescript": "^3.5.3"
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
   }
 }
