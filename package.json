@@ -33,7 +33,7 @@
     "kleur": "^3.0.3",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.0",
-    "semantic-release": "^16.0.4",
+    "semantic-release": "^17.2.3",
     "ts-jest": "^25.5.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^9.0.0"
